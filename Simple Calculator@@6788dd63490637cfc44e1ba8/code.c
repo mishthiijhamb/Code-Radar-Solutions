@@ -14,7 +14,11 @@ int main(){
         printf("%d", num1*num2);
     }
     else if(a=='/'){
-        printf("%d", num1/num2);
+        if (num2 != 0) {
+            printf("%d\n", num1 / num2);
+        } else {
+            printf("Error: Division by zero\n");
+        }
     }
     else{
         printf("error");
