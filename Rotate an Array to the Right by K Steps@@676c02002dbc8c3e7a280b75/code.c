@@ -24,12 +24,12 @@ int main() {
 
     // Rotate the array
    
-    for (int i = n - k; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    for (int i = 0; i < n - k; i++) {
-        printf("%d ", arr[i]);
-    }
+   for( int i=n-k; i<n; i++){
+    printf("%d", arr[i]);
+   }
+   for(int i=0;i=n-k;i++){
+    printf("%d", arr[i]);
+   }
 
     printf("\n");
     return 0;
