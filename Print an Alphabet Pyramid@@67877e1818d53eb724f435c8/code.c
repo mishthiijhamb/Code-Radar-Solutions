@@ -9,6 +9,7 @@ int main(){
         for(char b='A', b<'A'+i; b++){
             printf("%c", b);
         }
-        return 0;
+        
     }
+    return 0;
 }
